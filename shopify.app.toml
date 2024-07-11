@@ -3,11 +3,12 @@
 client_id = "0382c46d92aa28d7f87e3c26a246103b"
 name = "lolicupApp"
 handle = "lolicupapp"
-application_url = "https://example.com/"
+application_url = "https://lolicupapp.onrender.com"
 embedded = true
 
 [build]
 include_config_on_deploy = true
+
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
