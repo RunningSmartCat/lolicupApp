@@ -15,7 +15,11 @@ include_config_on_deploy = true
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://lolicupapp.onrender.comapi/auth" ]
+redirect_urls = [
+    "https://lolicupapp.onrender.com/auth/callback",
+    "https://lolicupapp.onrender.com/auth/shopify/callback",
+    "https://lolicupapp.onrender.com/api/auth/callback"
+]
 
 [webhooks]
 api_version = "2024-07"
